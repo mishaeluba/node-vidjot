@@ -1,0 +1,15 @@
+{{#if error}}
+  <div class="alert alert-danger">
+    {{error}}
+    <span class="close" data-dismiss="alert">&times;</span>
+  </div>
+{{/if}}
+
+{{#each errors}}
+  <div class="alert alert-danger">
+    {{text}}
+    <span class="close" data-dismiss="alert">&times;</span>
+  </div>
+{{else}}
+
+{{/each}}
